@@ -238,10 +238,6 @@
   @extend %clearfix;
   margin-bottom: 15px;
 
-  li:first-child {
-    margin-right: 5px;
-  }
-
   ul {
     margin: 0;
     padding: 0;
@@ -250,7 +246,7 @@
   li {
     display: inline-block;
     text-align: center;
-    margin-right: 0;
+    margin: 0 5px 0 0;
 
     a {
       font-size: 30px;
@@ -285,6 +281,10 @@
   }
   a:hover i.fa-twitter {
     background-color: #00ABEC;
+    color: #fff;
+  }
+  a:hover i.fa-github {
+    background-color: #000;
     color: #fff;
   }
 }
