@@ -26,5 +26,5 @@ sass:
 
 # Build settings
 markdown  : kramdown
-permalink : /:title/
+permalink : /:year/:title/
 

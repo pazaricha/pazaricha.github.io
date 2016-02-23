@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: titleless_page
 title: About
 permalink: /about/
 slug: about
 ---
+#Hey there, Nice to e-meet you! 
 
-This is a Jekyll theme. You can find out more information about customizing your theme Jekyll, as well as basic documentation Jekyll use in [jekyllrb.com](http://jekyllrb.com/).
+My name is Paz Aricha.
 
-You can find the source code for this theme: [github.com/nandomoreirame/zetsu]({{ site.github }})
+I'm a Designer, Developer and all around maker. Doing full stack developement (mostly with Ruby/Rails) and love what I do.
 
-You can find the source code in Jekyll [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I'm going to use this blog to talk about various things but mostly about design and development :)
 
-Theme developed by: [{{ site.author.name }}]({{ site.author.url }})
+Feel free to say hi at: <paz@pazaricha.com>
