@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 slug: about
 ---
-#Hey there, Nice to e-meet you! 
+# Hey there, Nice to e-meet you! 
 
 My name is Paz Aricha.
 
