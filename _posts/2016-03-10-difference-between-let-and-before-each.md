@@ -51,6 +51,6 @@ In the `let` example the "user_without_name" is the only instance created when r
 
 However, In the `before :each` example both the "@user_without_name" and the "@user_without_age" are created when the test is run even though "@user_without_age" never gets called.
 
-### Conclusion
+### When should you use each one?
 When you need to decide if you should use `let` or `before :each` in your test, think if you will need **everything** that runs inside your block to happen before **every** test. If the answer is no - use `let`.
 

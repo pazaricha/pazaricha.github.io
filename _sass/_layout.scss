@@ -172,14 +172,8 @@
     }
 
     a {
-      color: $text-color;
+      color: $primary-color;
       @include transition(color .2s linear);
-
-      &:hover,
-      &:focus {
-        color: $primary-color;
-        text-decoration: none;
-      }
     }
   }
 
@@ -202,6 +196,14 @@
 .single {
   .post-header {
     margin-bottom: $spacing-unit;
+    .post-title {
+      color: $primary-color;
+    }
+  }
+  .post-content {
+    h1, h2, h3, h4, h5, h6 {
+      margin: 2.5em 0 1em 0;
+    }
   }
 }
 
