@@ -165,9 +165,7 @@
   .post-header {
     h1 {
       margin-bottom: 10px;
-      // text-transform: uppercase;
       line-height: 1.3em;
-      font-size: 1.8rem;
       text-transform: capitalize;
     }
 
@@ -199,7 +197,7 @@
   }
   .post-content {
     h1, h2, h3, h4, h5, h6 {
-      margin: 2.5em 0 1em 0;
+      margin: 2em 0 1em 0;
     }
   }
 }

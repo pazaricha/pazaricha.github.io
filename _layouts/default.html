@@ -10,6 +10,8 @@ layout: compress
     <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
   </head>
   <body class="{{ page.slug }}">
+    {% include sharing/fb_js_sdk.html %}
+    
     <main class="main">
       {% include header.html %}
       {{ content }}

@@ -13,11 +13,11 @@ RSpec provides 2 main ways of achieving this:
 1. Via the `let` statement.
 2. Via the `before :each` statement.
 
-### But what's the difference between the two?
+## But what's the difference between the two?
 
 In short, `let` blocks are "lazy" and only gets evaluated the first time they are called in your tests, and `before :each` blocks are run before *every test* (within the same context/describe block it's written in), regardless of whether you use or need what's done inside them.
 
-### Let's see a *very* simple example in order to understand the difference.
+## Let's see a *very* simple example in order to understand the difference.
 
 In the following code, we create two user instances and then we do a test on one of them. Let's see the difference between `let` and `before :each` in this case.
 
@@ -51,6 +51,6 @@ In the `let` example the "user_without_name" is the only instance created when r
 
 However, In the `before :each` example both the "@user_without_name" and the "@user_without_age" are created when the test is run even though "@user_without_age" never gets called.
 
-### When should you use each one?
+## When should you use each one?
 When you need to decide if you should use `let` or `before :each` in your test, think if you will need **everything** that runs inside your block to happen before **every** test. If the answer is no - use `let`.
 
